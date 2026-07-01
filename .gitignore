@@ -128,7 +128,7 @@ dist
 # pnpm
 .pnpm-store
 
-# yarn v3
+# yarn v3+
 .pnp.*
 .yarn/*
 !.yarn/patches
@@ -141,3 +141,8 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+
+# OS and editors
+.DS_Store
+.idea/
+.vscode/

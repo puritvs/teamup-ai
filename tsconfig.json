@@ -1,0 +1,14 @@
+{
+  "files": [],
+  "references": [
+    {
+      "path": "./packages/teamup-types"
+    },
+    {
+      "path": "./packages/teamup-client"
+    },
+    {
+      "path": "./packages/teamup-mcp"
+    }
+  ]
+}

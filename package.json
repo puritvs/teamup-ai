@@ -1,0 +1,21 @@
+{
+  "name": "teamup-ai",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Official TypeScript ecosystem workspace for Teamup.",
+  "license": "MIT",
+  "type": "module",
+  "packageManager": "yarn@4.16.0",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "tsc -b",
+    "test": "yarn workspaces foreach -Apt run test",
+    "lint": "yarn workspaces foreach -Apt run lint",
+    "clean": "tsc -b --clean"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.2"
+  }
+}
